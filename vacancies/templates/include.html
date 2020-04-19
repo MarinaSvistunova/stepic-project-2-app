@@ -1,0 +1,6 @@
+<div class="nav flex-column nav-pills">
+      {% url 'my_company_view' as url_1 %}
+      {% url 'my_company_vacancies_view' as url_2 %}
+      <a class="nav-link {% if url_1 == request.path %}active{% endif %}" href="{{ url_1 }}">1. Информация о компании</a>
+      <a class="nav-link {% if url_2 == request.path %}active{% endif %}" href="{{ url_2 }}">2. Вакансии</a>
+</div>

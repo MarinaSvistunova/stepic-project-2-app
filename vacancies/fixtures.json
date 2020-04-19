@@ -1,0 +1,285 @@
+[
+{
+    "model": "vacancies.specialty",
+    "pk": 1,
+    "fields": {
+        "code": "frontend",
+        "title": "\u0424\u0440\u043e\u043d\u0442\u0435\u043d\u0434",
+        "picture": "https://place-hold.it/100x60"
+    }
+},
+{
+    "model": "vacancies.specialty",
+    "pk": 2,
+    "fields": {
+        "code": "backend",
+        "title": "\u0411\u044d\u043a\u0435\u043d\u0434",
+        "picture": "https://place-hold.it/100x60"
+    }
+},
+{
+    "model": "vacancies.specialty",
+    "pk": 3,
+    "fields": {
+        "code": "gamedev",
+        "title": "\u0413\u0435\u0439\u043c\u0434\u0435\u0432",
+        "picture": "https://place-hold.it/100x60"
+    }
+},
+{
+    "model": "vacancies.specialty",
+    "pk": 4,
+    "fields": {
+        "code": "devops",
+        "title": "\u0414\u0435\u0432\u043e\u043f\u0441",
+        "picture": "https://place-hold.it/100x60"
+    }
+},
+{
+    "model": "vacancies.specialty",
+    "pk": 5,
+    "fields": {
+        "code": "design",
+        "title": "\u0414\u0438\u0437\u0430\u0439\u043d",
+        "picture": "https://place-hold.it/100x60"
+    }
+},
+{
+    "model": "vacancies.specialty",
+    "pk": 6,
+    "fields": {
+        "code": "products",
+        "title": "\u041f\u0440\u043e\u0434\u0443\u043a\u0442\u044b",
+        "picture": "https://place-hold.it/100x60"
+    }
+},
+{
+    "model": "vacancies.specialty",
+    "pk": 7,
+    "fields": {
+        "code": "management",
+        "title": "\u041c\u0435\u043d\u0435\u0434\u0436\u043c\u0435\u043d\u0442",
+        "picture": "https://place-hold.it/100x60"
+    }
+},
+{
+    "model": "vacancies.specialty",
+    "pk": 8,
+    "fields": {
+        "code": "testing",
+        "title": "\u0422\u0435\u0441\u0442\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435",
+        "picture": "https://place-hold.it/100x60"
+    }
+},
+{
+    "model": "vacancies.specialty",
+    "pk": 9,
+    "fields": {
+        "code": "ios",
+        "title": "\u0420\u0430\u0437\u0440\u0430\u0431\u043e\u0442\u043a\u0430 \u043f\u043e\u0434 iOS",
+        "picture": "https://place-hold.it/100x60"
+    }
+},
+{
+    "model": "vacancies.specialty",
+    "pk": 10,
+    "fields": {
+        "code": "android",
+        "title": "\u0420\u0430\u0437\u0440\u0430\u0431\u043e\u0442\u043a\u0430 \u043f\u043e\u0434 Android",
+        "picture": "https://place-hold.it/100x60"
+    }
+},
+{
+    "model": "vacancies.company",
+    "pk": 1,
+    "fields": {
+        "name": "workiro",
+        "location": "Anythere",
+        "logo": "https://place-hold.it/130x80",
+        "description": "Something about company",
+        "employee_count": 514
+    }
+},
+{
+    "model": "vacancies.company",
+    "pk": 2,
+    "fields": {
+        "name": "rebelrage",
+        "location": "Anythere",
+        "logo": "https://place-hold.it/130x80",
+        "description": "Something about company",
+        "employee_count": 615
+    }
+},
+{
+    "model": "vacancies.company",
+    "pk": 3,
+    "fields": {
+        "name": "staffingsmarter",
+        "location": "Anythere",
+        "logo": "https://place-hold.it/130x80",
+        "description": "Something about company",
+        "employee_count": 588
+    }
+},
+{
+    "model": "vacancies.company",
+    "pk": 4,
+    "fields": {
+        "name": "evilthreat\u2028h",
+        "location": "Anythere",
+        "logo": "https://place-hold.it/130x80",
+        "description": "Something about company",
+        "employee_count": 596
+    }
+},
+{
+    "model": "vacancies.company",
+    "pk": 5,
+    "fields": {
+        "name": "wirey\u2028",
+        "location": "Anythere",
+        "logo": "https://place-hold.it/130x80",
+        "description": "Something about company",
+        "employee_count": 174
+    }
+},
+{
+    "model": "vacancies.company",
+    "pk": 6,
+    "fields": {
+        "name": "swiftattack",
+        "location": "Anythere",
+        "logo": "https://place-hold.it/130x80",
+        "description": "Something about company",
+        "employee_count": 639
+    }
+},
+{
+    "model": "vacancies.company",
+    "pk": 7,
+    "fields": {
+        "name": "troller",
+        "location": "Anythere",
+        "logo": "https://place-hold.it/130x80",
+        "description": "Something about company",
+        "employee_count": 955
+    }
+},
+{
+    "model": "vacancies.company",
+    "pk": 8,
+    "fields": {
+        "name": "primalassault",
+        "location": "Anythere",
+        "logo": "https://place-hold.it/130x80",
+        "description": "Something about company",
+        "employee_count": 439
+    }
+},
+{
+    "model": "vacancies.vacancy",
+    "pk": 1,
+    "fields": {
+        "title": "\u0420\u0430\u0437\u0440\u0430\u0431\u043e\u0442\u0447\u0438\u043a \u043d\u0430 Python",
+        "specialty": 2,
+        "company": 3,
+        "description": "\u041f\u043e\u0442\u043e\u043c \u0434\u043e\u0431\u0430\u0432\u0438\u043c",
+        "salary_min": 100000,
+        "salary_max": 150000,
+        "publish_date": "2020-03-11"
+    }
+},
+{
+    "model": "vacancies.vacancy",
+    "pk": 2,
+    "fields": {
+        "title": "\u0420\u0430\u0437\u0440\u0430\u0431\u043e\u0442\u0447\u0438\u043a \u0432 \u043f\u0440\u043e\u0435\u043a\u0442 \u043d\u0430 Django",
+        "specialty": 2,
+        "company": 6,
+        "description": "\u041f\u043e\u0442\u043e\u043c \u0434\u043e\u0431\u0430\u0432\u0438\u043c",
+        "salary_min": 80000,
+        "salary_max": 90000,
+        "publish_date": "2020-03-11"
+    }
+},
+{
+    "model": "vacancies.vacancy",
+    "pk": 3,
+    "fields": {
+        "title": "\u0420\u0430\u0437\u0440\u0430\u0431\u043e\u0442\u0447\u0438\u043a \u043d\u0430 Swift \u0432 \u0430\u0443\u0442\u0441\u043e\u0440\u0441 \u043a\u043e\u043c\u043f\u0430\u043d\u0438\u044e",
+        "specialty": 2,
+        "company": 6,
+        "description": "\u041f\u043e\u0442\u043e\u043c \u0434\u043e\u0431\u0430\u0432\u0438\u043c",
+        "salary_min": 120000,
+        "salary_max": 150000,
+        "publish_date": "2020-03-11"
+    }
+},
+{
+    "model": "vacancies.vacancy",
+    "pk": 4,
+    "fields": {
+        "title": "\u041c\u0438\u0434\u043b \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u0438\u0441\u0442 \u043d\u0430 Python",
+        "specialty": 2,
+        "company": 1,
+        "description": "\u041f\u043e\u0442\u043e\u043c \u0434\u043e\u0431\u0430\u0432\u0438\u043c",
+        "salary_min": 80000,
+        "salary_max": 90000,
+        "publish_date": "2020-03-11"
+    }
+},
+{
+    "model": "vacancies.vacancy",
+    "pk": 5,
+    "fields": {
+        "title": "\u041f\u0438\u0442\u043e\u043d\u0438\u0441\u0442 \u0432 \u0441\u0442\u0430\u0440\u0442\u0430\u043f",
+        "specialty": 2,
+        "company": 8,
+        "description": "\u041f\u043e\u0442\u043e\u043c \u0434\u043e\u0431\u0430\u0432\u0438\u043c",
+        "salary_min": 120000,
+        "salary_max": 150000,
+        "publish_date": "2020-03-11"
+    }
+},
+{
+    "model": "vacancies.skill",
+    "pk": 1,
+    "fields": {
+        "vacancy": 1,
+        "skill": "Python"
+    }
+},
+{
+    "model": "vacancies.skill",
+    "pk": 2,
+    "fields": {
+        "vacancy": 2,
+        "skill": "Python"
+    }
+},
+{
+    "model": "vacancies.skill",
+    "pk": 3,
+    "fields": {
+        "vacancy": 3,
+        "skill": "Python"
+    }
+},
+{
+    "model": "vacancies.skill",
+    "pk": 4,
+    "fields": {
+        "vacancy": 4,
+        "skill": "Python"
+    }
+},
+{
+    "model": "vacancies.skill",
+    "pk": 5,
+    "fields": {
+        "vacancy": 5,
+        "skill": "Python"
+    }
+}
+]
